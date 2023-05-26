@@ -1,0 +1,300 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  margin-bottom: 5rem;
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 350px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row h1 {
+  padding: 2rem;
+  color: #FF7C03;
+  text-shadow: 2px 2px #7d7c7c;
+  font-weight: bold;
+}
+
+p {
+  padding-left: 2rem;
+}
+
+.row {
+  margin-top: 1rem;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#id01 {
+  text-justify: distribute-all-lines;
+}
+
+.w3-container {
+  margin-left: 1rem;
+  margin-top: 2rem;
+
+}
+
+button #w3 {
+  color: #FF7C03;
+}
+
+button #w3:hover {
+  background-color: #fefefe;
+}
+
+.fav {
+  text-align: center;
+  align-items: center;
+  margin-top: 1rem;
+  border: 3px solid #FF7C03;
+  width: auto;
+  height: 17.5rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.con {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.favio {
+  perspective: 3000px;
+  width: 49%;
+  position: absolute;
+  left: 49%;
+  top: 580px;
+  transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+}
+
+.favio img {
+  transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+  box-shadow: -80px 60px 15px 5px rgba(0, 0, 0, 0.4);
+  transition: all .4s;
+  transform-style: preserve-3d;
+  height: 20rem;
+  border: 3px solid #FF7C03;
+}
+
+.favio:hover img {
+  transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.0);
+}
+
+
+
+
+
+.containers {
+  margin-left: 35px;
+  margin-top: 11rem;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.link {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  border-radius: 35px;
+  text-align: center;
+  margin: 7px;
+  line-height: 70px;
+  color: black;
+}
+
+a i {
+  transition: all 0.3s linear;
+  height: auto;
+}
+
+a:hover i {
+  transform: scale(1.5);
+}
+
+.envelope:hover {
+  color: #FF7C03;
+}
+
+
+.instagram:hover {
+  color: #FF7C03;
+}
+
+.twitter:hover {
+  color: #FF7C03;
+}
+
+.mobile:hover {
+  color: #FF7C03;
+}
+
+.lin:hover {
+  color: #FF7C03;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix:before,
+.clearfix::after {
+  content: "";
+  display: block;
+}
+
+.clearfix::after {
+  clear: both;
+
+}
+
+.clearfix {
+  *zoom: 1;
+  margin-top: -6rem;
+}
+
+
+
+.container1 {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: inherit;
+  padding-bottom: 10rem;
+  height: 50rem;
+
+
+}
+
+.chan {
+  width: 50%;
+  float: right;
+}
+
+.try2 {
+  width: 50%;
+  float: left;
+  margin-left: -4rem;
+}
+
+#div1 {
+  height: 250px;
+  width: 280px;
+  background-color: white;
+  margin: 0;
+  border: 3px solid #FF7C03;
+  padding: 5px;
+  text-align: center;
+}
+
+#div2 {
+  height: 250px;
+  width: 280px;
+  border: 3px solid #FF7C03;
+  background-color: white;
+  text-align: center;
+
+  position: relative;
+  left: 290px;
+  bottom: 250px;
+}
+
+#div3 {
+  height: 250px;
+  width: 280px;
+  border: 3px solid #FF7C03;
+  background-color: white;
+  text-align: center;
+
+  position: relative;
+  bottom: 240px;
+}
+
+#div4 {
+  height: 250px;
+  width: 280px;
+  border: 3px solid #FF7C03;
+  background-color: white;
+  text-align: center;
+
+  position: relative;
+  left: 290px;
+  bottom: 490px;
+}
+
+
+.card .icon {
+  font-size: 30px;
+}
